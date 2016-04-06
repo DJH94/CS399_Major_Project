@@ -1,0 +1,132 @@
+/*http://www.dafont.com/joystix.font
+  http://stackoverflow.com/questions/6970082/my-css-gradient-doesnt-stretch-it-repeats
+*/
+
+body{
+background-color: #ffff99;
+background-attachment: fixed;
+text-align:center;
+}
+
+canvas{
+border:5px solid;
+background-color: white;
+}
+
+a{
+text-decoration : none;
+font-family: sans-serif;
+font-weight:bold;
+color : black;
+
+}
+
+header{
+	background-color:#00cc44;
+	margin: 0% 10% 0%;
+	padding: 10px;
+	box-shadow: 10px 20px 5px #0f0f0a;
+}
+
+nav{
+background-color:#525252;
+margin: 0% 10% 0%;
+padding: 5px 5px;
+box-shadow: 10px 15px 5px #0f0f0a;
+}
+
+nav a:link, nav a:hover, nav a:active, nav a:visited {
+	text-decoration:none; 
+	text-transform: uppercase; 
+	font-size: 25px;
+	color: white;
+	padding: 0% 5%;
+	}
+
+h1{
+font-family: sans-serif;
+font-size: 50px;
+color: white;
+font-weight:bold;
+text-align: center;
+}
+
+h2{
+	color: white;
+	font-family: comic, sans-serif;
+	text-transform: uppercase;
+	font-size: 18px;
+	text-align:right;
+	margin-right: 10%;
+}
+
+h3{
+	font-family: comic, sans-serif;
+	text-align: left;
+	margin-left: 5%;
+	text-transform: uppercase;
+	
+}
+
+p{
+	text-align: left;
+	margin: 0% 10% 5% 5%;
+	
+}
+
+section{
+	background-color: white;
+	margin: 0% 10% 0%;
+	box-shadow: 10px 10px 5px #0f0f0a;
+	padding: 10px 0px;
+}
+
+
+ul{
+text-align: center;
+list-style-type: none;
+
+}
+
+li
+{
+text-align: center;
+display:inline;
+
+}
+
+
+@font-face {
+    font-family:comic;
+    src: url(Comic_Book.otf);
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+	width: 80%;
+	table-layout : fixed;
+	margin: 0% 10% 10%;
+}
+th, td {
+    padding: 15px;
+	font-family: sans-serif;
+	
+	
+}
+
+
+th{
+	background: linear-gradient(red, orange);
+	font-size: 45px;
+	font-family: comic, sans-serif;
+	letter-spacing: 5px;
+	text-transform: uppercase; 
+}
+
+
+td{
+	background-color: white;
+	font-size: 20px;
+	text-transform: uppercase;
+}
